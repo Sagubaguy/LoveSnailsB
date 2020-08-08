@@ -19,7 +19,7 @@ public class StartDialogue : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.Space)){
             Dialogueflowchart.ExecuteBlock("Start");
-            HubGameManager.Instance.SwapCamera();
+           // HubGameManager.Instance.SwapCamera();
             //SceneManager.LoadScene(SceneNameToOpen);
         }
     }
