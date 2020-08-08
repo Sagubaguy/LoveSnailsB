@@ -15,9 +15,12 @@ public class StartDialogue : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-        Dialogueflowchart.ExecuteBlock("Start");
-        //SceneManager.LoadScene(SceneNameToOpen);
+        if(Input.GetKey(KeyCode.Space)){
+            Dialogueflowchart.ExecuteBlock("Start");
+            HubGameManager.Instance.SwapCamera();
+            //SceneManager.LoadScene(SceneNameToOpen);
+        }
     }
 }
