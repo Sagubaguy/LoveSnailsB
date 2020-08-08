@@ -423,8 +423,6 @@ GameObject:
   - component: {fileID: 1870134475}
   - component: {fileID: 1870134474}
   - component: {fileID: 1870134473}
-  - component: {fileID: 1870134480}
-  - component: {fileID: 1870134481}
   - component: {fileID: 1870134479}
   m_Layer: 0
   m_Name: Flowchart
@@ -457,10 +455,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1870134477}
-  selectedCommands:
-  - {fileID: 1870134479}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -681,8 +677,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 156
-    y: 178
+    x: 159
+    y: 162
     width: 151
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -733,8 +729,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1
-    y: 200
+    x: 23
+    y: 172
     width: 121
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -793,60 +789,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &1870134480
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870134465}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -1
-    y: 262
-    width: 161
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 10
-  blockName: The story continues
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1870134481}
-  suppressAllAutoSelections: 0
---- !u!114 &1870134481
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870134465}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 11
-  indentLevel: 0
-  storyText: Oh but I'm getting ahead of myself...
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!1 &2025298651
 GameObject:
   m_ObjectHideFlags: 0
