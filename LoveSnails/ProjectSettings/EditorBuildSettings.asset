@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Alec_tests/AlecTestingScene.unity
+    guid: c6492e0f826cd32428514a714bae4fd4
+  - enabled: 1
+    path: Assets/Scenes/Alec_tests/AlecTestDialogue.unity
+    guid: 748dc47991cd6be4ea61726838163820
   m_configObjects: {}
