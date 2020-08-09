@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 2981082069156340881}
   - component: {fileID: 3346127650650165117}
   - component: {fileID: 8714352889460279144}
-  - component: {fileID: 1673139928018725915}
   - component: {fileID: 6427164057770313057}
   - component: {fileID: 2747076515858941861}
   - component: {fileID: 976260499806037725}
@@ -76,6 +75,8 @@ GameObject:
   - component: {fileID: 361581249946921148}
   - component: {fileID: 8478430403041229474}
   - component: {fileID: 5422442379323072897}
+  - component: {fileID: 331582469}
+  - component: {fileID: 331582470}
   m_Layer: 0
   m_Name: Flowchart_Gerard (1)
   m_TagString: Untagged
@@ -121,8 +122,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 3596627601756812643}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -149,39 +149,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 68
-    y: 51
-    width: 134
+    x: 95
+    y: 32
+    width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
-  blockName: Gerard_says_hi
+  blockName: Start
   description: 
-  eventHandler: {fileID: 1673139928018725915}
+  eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 331582470}
   - {fileID: 6427164057770313057}
   - {fileID: 4648265930714685556}
   - {fileID: 2747076515858941861}
   - {fileID: 976260499806037725}
   - {fileID: 5541157412388797045}
   suppressAllAutoSelections: 0
---- !u!114 &1673139928018725915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5224893553390452043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 8714352889460279144}
-  suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 0}
-  waitFrames: 1
 --- !u!114 &6427164057770313057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,6 +274,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 5397305979244671571}
   - {fileID: 7493815197913404721}
+  - {fileID: 331582469}
   suppressAllAutoSelections: 0
 --- !u!114 &6639391851189638945
 MonoBehaviour:
@@ -997,6 +983,118 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &331582469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5224893553390452043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 40
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CameraClick, Assembly-CSharp
+        m_MethodName: EnableMove
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &331582470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5224893553390452043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 39
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CameraClick, Assembly-CSharp
+        m_MethodName: DisableMove
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5939213067361199723
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,7 +1120,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5939213067361199723}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.127237, y: -8.805415, z: -0.05953121}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8244986634484112312}
@@ -1070,8 +1168,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7275820298300354516}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.217237, y: -6.285415, z: -0.05953121}
-  m_LocalScale: {x: 0.3523728, y: 0.36189684, z: 1}
+  m_LocalPosition: {x: 1.22, y: 0.41, z: 0}
+  m_LocalScale: {x: -0.3323303, y: 0.36189684, z: 1}
   m_Children: []
   m_Father: {fileID: 8244986634484112312}
   m_RootOrder: 2

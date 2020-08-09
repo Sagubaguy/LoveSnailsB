@@ -6,21 +6,31 @@ using Fungus;
 
 public class StartDialogue : MonoBehaviour
 {
-    public string SceneNameToOpen;
+    //Should be the name of the starting block in the flowchart
+    public string StartingBlockName = "Start";
+
+    //Should be the flow chart that needs to be run on collision.
     public Flowchart Dialogueflowchart;
 
-    // Start is called before the first frame update
-    void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
+        //ONLY DO THIS FOR PLAYER (or Any rigidbody with a collider will start conversations
+        Player playerComponent = other.GetComponent<Player>();
+        if (playerComponent != null)
+        {
+            //if (!playerComponent.IsInteracting)
+            //{
+                //Start the flowchart
+                Dialogueflowchart.ExecuteBlock(StartingBlockName);
 
-    private void OnTriggerStay(Collider other)
-    {
-        if(Input.GetKey(KeyCode.Space)){
-            Dialogueflowchart.ExecuteBlock("Start");
-           // HubGameManager.Instance.SwapCamera();
-            //SceneManager.LoadScene(SceneNameToOpen);
+                //Stop the player's current movement if they enter a conversation
+                SnailMover playerMover = GetComponent<SnailMover>();
+                if (playerMover)
+                {
+                    playerMover.StopMoving();
+                }
+                //Disable Player Here?  Or in Flowchart
+            //}
         }
     }
 }
