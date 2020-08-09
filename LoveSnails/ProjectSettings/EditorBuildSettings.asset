@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HubMaster.unity
     guid: 81664fc5485504942b261537fcdea382
+  - enabled: 1
+    path: Assets/Scenes/CreditsScene.unity
+    guid: 7f6a7ae642308584fa5c97d474750571
   m_configObjects: {}

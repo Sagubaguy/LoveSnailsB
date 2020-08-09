@@ -54,6 +54,12 @@ GameObject:
   - component: {fileID: 2916177392251820011}
   - component: {fileID: 6909058349886666159}
   - component: {fileID: 5754872092728389938}
+  - component: {fileID: 267562214}
+  - component: {fileID: 267562215}
+  - component: {fileID: 267562216}
+  - component: {fileID: 267562223}
+  - component: {fileID: 267562224}
+  - component: {fileID: 267562225}
   m_Layer: 0
   m_Name: Flowchart_endgame
   m_TagString: Untagged
@@ -99,8 +105,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 4491344895759936086}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -261,6 +266,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 267562215}
   - {fileID: 4491344895759936078}
   - {fileID: 4491344895759936076}
   - {fileID: 4491344895759936043}
@@ -465,7 +471,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4491344895759936115}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
@@ -587,6 +593,7 @@ MonoBehaviour:
   - {fileID: 4491344895759936091}
   - {fileID: 4491344895759936084}
   - {fileID: 4796279545458338636}
+  - {fileID: 267562214}
   suppressAllAutoSelections: 0
 --- !u!114 &4491344895759936081
 MonoBehaviour:
@@ -617,6 +624,7 @@ MonoBehaviour:
   - {fileID: 4491344895759936089}
   - {fileID: 4491344895759936088}
   - {fileID: 4290636852613728983}
+  - {fileID: 267562225}
   suppressAllAutoSelections: 0
 --- !u!114 &4491344895759936080
 MonoBehaviour:
@@ -632,7 +640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -303.40283
+    x: -304.71863
     y: 141.65996
     width: 121.05261
     height: 40
@@ -647,6 +655,7 @@ MonoBehaviour:
   - {fileID: 4491344895759936066}
   - {fileID: 4491344895759936067}
   - {fileID: 2916177392251820011}
+  - {fileID: 267562224}
   suppressAllAutoSelections: 0
 --- !u!114 &4491344895759936087
 MonoBehaviour:
@@ -677,6 +686,7 @@ MonoBehaviour:
   - {fileID: 4491344895759936093}
   - {fileID: 4491344895759936094}
   - {fileID: 6909058349886666159}
+  - {fileID: 267562223}
   suppressAllAutoSelections: 0
 --- !u!114 &4491344895759936086
 MonoBehaviour:
@@ -692,7 +702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 47.91268
+    x: 46.596893
     y: 149.55475
     width: 130.26312
     height: 40
@@ -708,6 +718,7 @@ MonoBehaviour:
   - {fileID: 4491344895759936079}
   - {fileID: 4491344895759936064}
   - {fileID: 5754872092728389938}
+  - {fileID: 267562216}
   suppressAllAutoSelections: 0
 --- !u!114 &4491344895759936085
 MonoBehaviour:
@@ -1422,3 +1433,154 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &267562214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4491344895759936115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 47
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: CreditsScene
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &267562215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4491344895759936115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CameraClick, Assembly-CSharp
+        m_MethodName: DisableMove
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &267562216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4491344895759936115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: CreditsScene
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &267562223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4491344895759936115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: CreditsScene
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &267562224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4491344895759936115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: CreditsScene
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &267562225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4491344895759936115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: CreditsScene
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 

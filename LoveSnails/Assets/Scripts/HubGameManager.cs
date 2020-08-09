@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using Fungus;
 
 public enum ConvoStatus { InHub, InConvo };
 
@@ -9,6 +10,9 @@ public class HubGameManager : MonoBehaviour
 {
     //lazy singleton
     public static HubGameManager Instance;
+
+    public Flowchart EndingFlowchart;
+    public string EndingBlockName = "";
 
     //CAMERA/PLAYER
     public Camera ThirdPersonCam;
@@ -37,6 +41,7 @@ public class HubGameManager : MonoBehaviour
     public void TimerStart()
     {
         TimeRemaining = TimerInSeconds;
+        IsTimerActive = true;
     }
 
     public void PauseTimer(bool pauseValue)
@@ -47,7 +52,7 @@ public class HubGameManager : MonoBehaviour
 
     private void Update()
     {
-        if (!IsTimerActive)
+        if (IsTimerActive)
         {
             TimeRemaining -= Time.deltaTime;
             if(TimeRemaining <= 0)
@@ -63,6 +68,7 @@ public class HubGameManager : MonoBehaviour
         //PUT WHATEVER NEEDS TO TRIGGER ON TIMER END HERE
         //MADE AN EVENT IN CASE WE NEED TO TRIGGER MORE STUFF
         TimeIsUp.Invoke();
+        EndingFlowchart.ExecuteBlock(EndingBlockName);
     }
 
     //public void SwapCamera()
