@@ -3197,21 +3197,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 265, y: 190.5}
+  scrollPos: {x: 95.867744, y: 190.3045}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.6100004
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1285037356}
-  selectedCommands:
-  - {fileID: 1285037359}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3275,7 +3273,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 69
-    width: 119
+    width: 115.57373
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3379,7 +3377,7 @@ MonoBehaviour:
   fadeDuration: 1
 --- !u!114 &1285037360
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3393,7 +3391,7 @@ MonoBehaviour:
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 55cbcd6a07b2bcc4fb795190c7f2ac58, type: 3}
   volume: 1
-  loop: 0
+  loop: 1
 --- !u!1 &1301176389
 GameObject:
   m_ObjectHideFlags: 0
@@ -3848,7 +3846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1904550364}
+  selectedFlowchart: {fileID: 1285037353}
 --- !u!4 &1468270227
 Transform:
   m_ObjectHideFlags: 1
