@@ -1141,10 +1141,20 @@ PrefabInstance:
       propertyPath: staticEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 92584107}
+    - target: {fileID: 3346127650650165117, guid: 66c4f0597cdace24583d05898f0b9c0e,
+        type: 3}
+      propertyPath: selectedBlocks.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4779117262913112334, guid: 66c4f0597cdace24583d05898f0b9c0e,
         type: 3}
       propertyPath: m_Name
       value: Gerard_snail
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906031013024165982, guid: 66c4f0597cdace24583d05898f0b9c0e,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: -96
       objectReference: {fileID: 0}
     - target: {fileID: 7275820298300354516, guid: 66c4f0597cdace24583d05898f0b9c0e,
         type: 3}
@@ -1816,55 +1826,143 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477090, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: storyText
+      value: 'Maybe a barefoot beach wedding? Or should we rent out a hall? Winter
+        wonderland? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477091, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: storyText
+      value: 'I have it all planned out on my vision board! I''ve been working on
+        it since I was 5. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477092, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: blockName
+      value: food
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477094, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: storyText
+      value: Not sure if a snail's tummy can handle too much spaghtti, though. How
+        do you feel about Zoodles?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477095, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: storyText
+      value: 'Have you seen that movie about the dogs? Slowly nibbling on the same
+        strand of noodle? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477096, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: storyText
+      value: 'I''m sure they have gondolas in Paris, right? Anyway... you''re feeding
+        me chocolate strawberries... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477097, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: storyText
+      value: 'Soft music is playing. The sun is gently setting behind us, framing
+        the Eiffel Tower. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477099, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: storyText
+      value: 'You''re deathly allergic to strawberries? No kidding? Hm, I''m sure
+        you''ll get over that. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477102, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: storyText
+      value: You -- or someone who looks like you -- me, together in a gondola.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477117, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: storyText
+      value: 'What do you mean you didn''t ask about the wedding...? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477136, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: text
+      value: 'Adieu, parting is such sweet sorrow. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477137, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477139, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: text
+      value: 'What''s your favorite food? '
+      objectReference: {fileID: 0}
     - target: {fileID: 4344405975778477140, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
         type: 3}
       propertyPath: commandList.Array.size
-      value: 7
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4344405975778477140, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
         type: 3}
       propertyPath: commandList.Array.data[1]
       value: 
-      objectReference: {fileID: 1904550334}
+      objectReference: {fileID: 1904550331}
     - target: {fileID: 4344405975778477140, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
         type: 3}
       propertyPath: commandList.Array.data[2]
       value: 
-      objectReference: {fileID: 1904550333}
+      objectReference: {fileID: 1904550329}
     - target: {fileID: 4344405975778477140, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
         type: 3}
       propertyPath: commandList.Array.data[3]
       value: 
-      objectReference: {fileID: 1904550332}
+      objectReference: {fileID: 0}
     - target: {fileID: 4344405975778477140, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
         type: 3}
       propertyPath: commandList.Array.data[4]
       value: 
-      objectReference: {fileID: 1904550331}
+      objectReference: {fileID: 0}
     - target: {fileID: 4344405975778477140, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
         type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 1904550357}
+      objectReference: {fileID: 0}
     - target: {fileID: 4344405975778477140, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
         type: 3}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 1904550329}
+      objectReference: {fileID: 0}
     - target: {fileID: 4344405975778477140, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
         type: 3}
       propertyPath: commandList.Array.data[0]
       value: 
       objectReference: {fileID: 1904550358}
+    - target: {fileID: 4344405975778477140, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: -116
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477141, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: storyText
+      value: 'I''m just looking for what all of us are. Love. What d''you say...
+        are you the foot-muscle to my single, body-sized glass slipper? '
+      objectReference: {fileID: 0}
     - target: {fileID: 4344405975778477142, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
         type: 3}
       propertyPath: targetView
       value: 
       objectReference: {fileID: 1538300266}
+    - target: {fileID: 4344405975778477143, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: storyText
+      value: 'Leaving already? I guess we''re just too star-crossed... '
+      objectReference: {fileID: 0}
     - target: {fileID: 4344405975778477145, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
         type: 3}
       propertyPath: commandList.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4344405975778477145, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
         type: 3}
@@ -1895,12 +1993,33 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 1904550352}
+      objectReference: {fileID: 1904550328}
     - target: {fileID: 4344405975778477145, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
         type: 3}
       propertyPath: commandList.Array.data[0]
       value: 
       objectReference: {fileID: 1904550330}
+    - target: {fileID: 4344405975778477145, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 1904550352}
+    - target: {fileID: 4344405975778477147, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: storyText
+      value: 'Wow! To think our paths could cross this way. It must be... Destiny.
+        Which is my name.  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477150, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: selectedBlocks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344405975778477150, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
+        type: 3}
+      propertyPath: blockViewHeight
+      value: 402
+      objectReference: {fileID: 0}
     - target: {fileID: 4344405976477253438, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1983,6 +2102,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4344405975778477144, guid: 897974de8bbd6db4c86c013a3bb1ccf5, type: 3}
+    - {fileID: 4344405975778477112, guid: 897974de8bbd6db4c86c013a3bb1ccf5, type: 3}
+    - {fileID: 4344405975778477118, guid: 897974de8bbd6db4c86c013a3bb1ccf5, type: 3}
+    - {fileID: 4344405975778477113, guid: 897974de8bbd6db4c86c013a3bb1ccf5, type: 3}
+    - {fileID: 4344405975778477119, guid: 897974de8bbd6db4c86c013a3bb1ccf5, type: 3}
+    - {fileID: 4344405975778477142, guid: 897974de8bbd6db4c86c013a3bb1ccf5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 897974de8bbd6db4c86c013a3bb1ccf5, type: 3}
 --- !u!1 &807320460
 GameObject:
@@ -3052,6 +3176,7 @@ GameObject:
   - component: {fileID: 1285037354}
   - component: {fileID: 1285037358}
   - component: {fileID: 1285037359}
+  - component: {fileID: 1285037360}
   m_Layer: 0
   m_Name: SceneSetupFlowchart
   m_TagString: Untagged
@@ -3149,7 +3274,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 67
-    y: 70
+    y: 69
     width: 119
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3160,6 +3285,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1285037355}
   commandList:
   - {fileID: 1285037359}
+  - {fileID: 1285037360}
   - {fileID: 1285037354}
   - {fileID: 1285037358}
   suppressAllAutoSelections: 0
@@ -3251,6 +3377,23 @@ MonoBehaviour:
   atTime: 0
   loop: 1
   fadeDuration: 1
+--- !u!114 &1285037360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285037352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 5
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 55cbcd6a07b2bcc4fb795190c7f2ac58, type: 3}
+  volume: 1
+  loop: 0
 --- !u!1 &1301176389
 GameObject:
   m_ObjectHideFlags: 0
@@ -3705,7 +3848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1285037353}
+  selectedFlowchart: {fileID: 1904550364}
 --- !u!4 &1468270227
 Transform:
   m_ObjectHideFlags: 1
@@ -4293,6 +4436,33 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 749810139}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1904550328
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904550327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  indentLevel: 0
+  storyText: 'Oh. Yeah, guess we should know a little about each other first. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1904550329
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4305,7 +4475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 57
+  itemId: 60
   indentLevel: 0
   description: 
   delay: 0
@@ -4405,54 +4575,31 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1904550331 stripped
+--- !u!114 &1904550331
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4344405975778477112, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
-    type: 3}
-  m_PrefabInstance: {fileID: 749810139}
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904550327}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1904550332 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4344405975778477113, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
-    type: 3}
-  m_PrefabInstance: {fileID: 749810139}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904550327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1904550333 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4344405975778477118, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
-    type: 3}
-  m_PrefabInstance: {fileID: 749810139}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904550327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1904550334 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4344405975778477119, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
-    type: 3}
-  m_PrefabInstance: {fileID: 749810139}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904550327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  itemId: 59
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 1538300266}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
 --- !u!114 &1904550351 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4344405975778477100, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
@@ -4475,18 +4622,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1904550357 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4344405975778477142, guid: 897974de8bbd6db4c86c013a3bb1ccf5,
-    type: 3}
-  m_PrefabInstance: {fileID: 749810139}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904550327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1904550358 stripped
