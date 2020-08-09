@@ -443,6 +443,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8175519666051011393, guid: 1ae7cf47327a47f44848a4b4ed5cb530,
+        type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f1bdf791a1da4e42ab5acb82bd0d64d, type: 3}
     - target: {fileID: 8175519666051011394, guid: 1ae7cf47327a47f44848a4b4ed5cb530,
         type: 3}
       propertyPath: m_Enabled
@@ -478,6 +483,31 @@ PrefabInstance:
       propertyPath: selectedBlocks.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8175519666051011402, guid: 1ae7cf47327a47f44848a4b4ed5cb530,
+        type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f1bdf791a1da4e42ab5acb82bd0d64d, type: 3}
+    - target: {fileID: 8175519666051011404, guid: 1ae7cf47327a47f44848a4b4ed5cb530,
+        type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f1bdf791a1da4e42ab5acb82bd0d64d, type: 3}
+    - target: {fileID: 8175519666051011405, guid: 1ae7cf47327a47f44848a4b4ed5cb530,
+        type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f1bdf791a1da4e42ab5acb82bd0d64d, type: 3}
+    - target: {fileID: 8175519666051011406, guid: 1ae7cf47327a47f44848a4b4ed5cb530,
+        type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f1bdf791a1da4e42ab5acb82bd0d64d, type: 3}
+    - target: {fileID: 8175519666051011407, guid: 1ae7cf47327a47f44848a4b4ed5cb530,
+        type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f1bdf791a1da4e42ab5acb82bd0d64d, type: 3}
     - target: {fileID: 8175519666873325483, guid: 1ae7cf47327a47f44848a4b4ed5cb530,
         type: 3}
       propertyPath: m_LocalPosition.x
