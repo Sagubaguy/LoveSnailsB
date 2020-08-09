@@ -912,7 +912,7 @@ MonoBehaviour:
   ThirdPersonCam: {fileID: 92584105}
   FlowchartCam: {fileID: 0}
   PlayerObject: {fileID: 230930805}
-  TimerInSeconds: 480
+  TimerInSeconds: 5
   TimeRemaining: 0
   TimeIsUp:
     m_PersistentCalls:
