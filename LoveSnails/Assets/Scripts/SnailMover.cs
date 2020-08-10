@@ -10,7 +10,9 @@ public class SnailMover : MonoBehaviour
     
 
     Rigidbody rigidbody;
+    public AudioSource audioSrc;
     public NavMeshAgent agent;
+    private bool isMoving = false;
 
     private Vector3 inputVector;
 
@@ -33,6 +35,25 @@ public class SnailMover : MonoBehaviour
         //{
         //    SnailModel.transform.forward = inputVector;
         //}
+
+        if (agent.velocity.x !=0 || agent.velocity.z !=0)
+        {
+            isMoving = true;
+
+        }
+        else
+        {
+            isMoving = false;
+        }
+
+        if (isMoving && !audioSrc.isPlaying)
+        {
+            audioSrc.Play();
+        }
+        if (!isMoving && audioSrc.isPlaying)
+        {
+            audioSrc.Stop();
+        }
 
 
     }
