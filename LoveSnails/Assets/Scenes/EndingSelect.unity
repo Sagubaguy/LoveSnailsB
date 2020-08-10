@@ -277,9 +277,9 @@ MonoBehaviour:
   targetAudioSource: {fileID: 0}
   audioMode: 0
   beepSounds:
-  - {fileID: 8300000, guid: e6e2f7dc43d5d4642864f558ecdc8000, type: 3}
-  - {fileID: 8300000, guid: 940d2ceb0532e9b4b952f1290dabfb6e, type: 3}
-  - {fileID: 8300000, guid: a3e380da2a7c268458116d56c540cfca, type: 3}
+  - {fileID: 8300000, guid: e3640c2a9f2878847996aab769024712, type: 3}
+  - {fileID: 8300000, guid: 517610589e70a0747b0b7ccfee242880, type: 3}
+  - {fileID: 8300000, guid: 2b74f4828f4b43844b200d0b848a405a, type: 3}
   soundEffect: {fileID: 0}
   inputSound: {fileID: 8300000, guid: 14a396b1562834718b2d52b9c4639264, type: 3}
 --- !u!114 &82468196
@@ -2363,7 +2363,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1028920943
 PrefabInstance:

@@ -10,7 +10,7 @@ public class SnailMover : MonoBehaviour
     
 
     Rigidbody rigidbody;
-    NavMeshAgent agent;
+    public NavMeshAgent agent;
 
     private Vector3 inputVector;
 
