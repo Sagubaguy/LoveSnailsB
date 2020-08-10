@@ -585,7 +585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 64
   indentLevel: 0
-  storyText: So...Whose it going to be?
+  storyText: So, who's it going to be?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
