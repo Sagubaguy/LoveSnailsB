@@ -272,7 +272,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &625129466
 GameObject:
@@ -1399,6 +1399,12 @@ PrefabInstance:
         type: 3}
       propertyPath: voiceOverClip
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8175519666051011405, guid: 1ae7cf47327a47f44848a4b4ed5cb530,
+        type: 3}
+      propertyPath: storyText
+      value: I know slow and steady wins the race, but we also don't want to lose
+        our deposit. So you'll have just 5 minutes to mingle.
       objectReference: {fileID: 0}
     - target: {fileID: 8175519666051011406, guid: 1ae7cf47327a47f44848a4b4ed5cb530,
         type: 3}
