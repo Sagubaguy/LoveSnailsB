@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using Fungus;
+using UnityEngine.UI;
 
 public enum ConvoStatus { InHub, InConvo };
 
@@ -24,6 +25,10 @@ public class HubGameManager : MonoBehaviour
     public float TimeRemaining = 0;
     public UnityEvent TimeIsUp;
 
+
+    public GameObject[] TimerUIElements;
+    public float[] TimerImageTriggers;
+
     bool IsTimerActive = false;
 
     //private ConvoStatus ConversationStatus;
@@ -36,6 +41,8 @@ public class HubGameManager : MonoBehaviour
             Instance = this;
         }
         //ConversationStatus = ConvoStatus.InHub;
+
+        TimerStart();
     }
 
     public void TimerStart()
@@ -54,6 +61,7 @@ public class HubGameManager : MonoBehaviour
     {
         if (IsTimerActive)
         {
+            CheckTimer();
             TimeRemaining -= Time.deltaTime;
             if(TimeRemaining <= 0)
             {
@@ -69,6 +77,28 @@ public class HubGameManager : MonoBehaviour
         //MADE AN EVENT IN CASE WE NEED TO TRIGGER MORE STUFF
         TimeIsUp.Invoke();
         EndingFlowchart.ExecuteBlock(EndingBlockName);
+    }
+
+
+    private void CheckTimer()
+    {
+        for(int i=0; i < TimerImageTriggers.Length; i++)
+        {
+            float timeSoFar = TimerInSeconds - TimeRemaining;
+            if (timeSoFar > TimerImageTriggers[i])
+            {
+                //Hide all timers
+                foreach(GameObject go in TimerUIElements)
+                {
+                    go.SetActive(false);
+                }
+
+                //Activate this timer image
+
+                TimerUIElements[i + 1].SetActive(true);
+            }
+
+        }
     }
 
     //public void SwapCamera()
